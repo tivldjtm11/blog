@@ -8,6 +8,7 @@ public class BlogControllerTest {
 
 	@GetMapping("/test/hello")
 	public String hello() {
+		System.out.println("ssss");
 		return "hhddd";
 	}
 	
